@@ -1,0 +1,104 @@
+/* .goa2 img{
+    
+    width: 96%;
+    height: 550px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 1%;
+    
+}
+.goa2 p{
+    font-size:30px;
+    margin-top: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: cursive;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.goa2{
+}
+.goa2 img{
+    position: relative;
+  
+}
+.goa-h2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+.goa-h3{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.goa-palolem{
+    display: flex;
+    margin: 4%;
+    width:auto;
+    background-color: rgb(160, 164, 164);
+    border-radius: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+.sub-place{
+    width: 50%;
+}
+
+.goa-img img{
+    width: 60%;
+    border-radius: 20px;
+    
+}
+.p-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align:left;
+    color:white;
+    font-family: cursive;
+}
+.slide-1 img{
+    height: 100px;
+} */
+
+
+.goa-h3{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.goa-palolem{
+    display: flex;
+    margin: 4%;
+    width:auto;
+    background-color: rgb(160, 164, 164);
+    border-radius: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+.goa2 img{
+    position: relative;
+  
+}
+.goa-h2{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+.cards-main{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.goa2{
+    margin-bottom: 1%;
+}

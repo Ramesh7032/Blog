@@ -1,0 +1,129 @@
+
+.places2{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+  grid-gap: 20px; 
+ justify-content: center;
+ margin-bottom: 2%;
+}
+.p-box1 {
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    position: relative;
+  overflow: hidden;
+    
+  }
+  /* .p-box11{
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  } */
+  .p-img {
+    width: 100%;
+    height:auto;
+    transition: opacity 0.5s ease; 
+    border-radius: 15px;
+  }  
+  .p-box1::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+  }
+  .p-box1:hover .p-img {
+    opacity: 0.7; 
+  }
+  .p-box1:hover::after {
+    opacity: 1; 
+  }
+  
+  .p-box1:hover p {
+    opacity: 1; 
+  }
+  
+  .p-box1 p {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:red;
+    font-weight: 800;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+    font-size: 20px; 
+  }
+  .places2-1 button{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* background-color: rgb(59, 126, 212); */
+    /* color: white; */
+    border: none;
+}
+.p-box1{
+    margin-bottom: 10px;
+}
+/* .places2-1 button:hover{
+  transform: scale(1.1);
+  transition: calc(0.5s);
+} */
+
+
+  
+   .places1 {
+   display:flex ;
+    justify-content: center; /* Horizontally center the items */
+  }
+  
+  .places2 {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap onto new lines if there's not enough space */
+  }
+  
+  .places2-1 {
+    flex: 0 0 300px; 
+    .places1 {
+      display: flex;
+      justify-content: center; /* Horizontally center the items */
+    }
+    
+    .places2 {
+      display: flex;
+      flex-wrap: wrap; /* Ensure items wrap onto new lines if there's not enough space */
+    }
+    
+    .places2-1 {
+      flex: 0 0 300px; 
+      margin: 10px;
+    }
+    
+    .p-box1 {
+      text-align: center; /* Center the text */
+    }
+    
+    .p-img {
+      width: 100%; /* Ensure images take up the full width of their container */
+      max-width: 100%; /* Ensure images don't exceed their original size */
+      height: auto; /* Maintain aspect ratio */
+    }
+    
+  }
+  
+  
+  .p-box1 {
+    text-align: center; /* Center the text */
+  }
+  
+  .p-img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+  }
+  
